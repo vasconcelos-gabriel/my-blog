@@ -1,2 +1,2 @@
-# My Blog
- Mini Blog utilizando React, Hooks, Router, Context, Firebase e Autencição
+# my-blog
+ Mini Blog utilizando React Router, Hooks e Context + FireBase, Autenticação
