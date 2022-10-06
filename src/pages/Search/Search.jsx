@@ -16,7 +16,7 @@ const Search = () => {
   const { documents: posts } = useFetchDocuments('posts', search)
 
   return (
-    <div>
+    <div className={styles.search}>
       <h2>Search</h2>
       <div>
         {posts && posts.length === 0 && (
