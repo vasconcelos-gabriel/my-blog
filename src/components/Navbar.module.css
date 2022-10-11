@@ -25,10 +25,11 @@
 }
 
 .links_list li a {
-  padding: .4em .6em;
+  padding: 0.4em 0.6em;
 }
 
-.active{
-  background-color: #000;
+.active {
+  background: #0d6efd;
+  border-radius: 4px;
   color: white;
 }

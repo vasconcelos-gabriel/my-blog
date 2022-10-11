@@ -1,5 +1,5 @@
 body {
-  background-color: #f6fcff;
+  background-color: #fff;
   padding: 0;
   margin: 0;
   font-family: 'Montserrat', sans-serif;
@@ -62,7 +62,7 @@ textarea {
 }
 
 .btn {
-  background-color: #1a8918;
+  background-color: #0D6EFD;
   color: #fff;
   text-align: center;
   cursor: pointer;
@@ -70,13 +70,14 @@ textarea {
   width: 120px;
   font-weight: bold;
   border: none;
-  padding: 10px 15px;
+  padding: 10px 10px;
   font-size: 1em;
+  border-radius: 4px;
 }
 
 .btn.btn-dark {
-  background-color: black;
-  border-radius: 0;
+  background: #0D6EFD;
+  border-radius: 4px;
 }
 
 .btn.btn-outline {
@@ -85,15 +86,16 @@ textarea {
   color: black;
   border: 1px solid black;
   padding: 7px 30px;
+  border-radius: 4px;
 }
 
 .btn:hover {
-  background-color: #0f730c;
+  background-color: #0a4db1;
   color: white;
 }
 
 .btn.btn-outline:hover {
-  background-color: black;
+  background-color: #0D6EFD;
 }
 .btn.btn-danger:hover {
   background-color: red;
